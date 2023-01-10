@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 // import React from 'react';
 import './App.css';
-
-
+import Navbar from './components/Navbar'
+import Logo from './components/logo';
 
 function App() {
   return (
-   <div>
-    hello
-   </div>
+    <div>
+      <Logo />
+      <Navbar />
+    </div>
+
   )
 }
 

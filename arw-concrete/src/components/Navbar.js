@@ -2,23 +2,22 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="nav" class='container bar'>
-            <div class='row'>
-                <div class='col'></div>
-                
-                <p class='col'>
-                    <a href='./careers'>Careers/Internships</a>
-                </p>
-                <p class='col'>
-                    <a href='./safety'>Safety Page</a>
-                </p>
-                <p class='col'>
-                    <a href='./about'>About Us</a>
-                </p>
-                <p class='col'>
-                    <a href='./services'>Services</a>
-                </p>
-                <div class='col'></div>
+        <nav className='nav'>
+            <div className='container'>
+            <div className='row'>
+                <h3 className='col select-container'>
+                    <a href='./careers' className='page-select'>Careers/Internships</a>
+                </h3>
+                <h3 className='col select-container'>
+                    <a href='./safety' className='page-select'>Safety Page</a>
+                </h3>
+                <h3 className='col select-container'>
+                    <a href='./about' className='page-select'>About Us</a>
+                </h3>
+                <h3 className='col select-container'>
+                    <a href='./services' className='page-select'>Services</a>
+                </h3>
+                </div>
             </div>
         </nav>
     )

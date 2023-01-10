@@ -4,6 +4,11 @@
   padding-right: 145px;
 }
 
-.bar {
-  
+.page-select {
+  text-decoration: none;
+  text-align: center;
+}
+
+.select-container {
+  text-align: center;
 }

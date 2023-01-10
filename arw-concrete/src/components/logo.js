@@ -4,13 +4,13 @@ import LH from '../images/LH.jpg';
 
 const Logo = () => {
     return(
-        <div class='container'>
-            <div class='row'>
-                <div class='col'></div>
-                <a href='/' class='col'>
-                    <img src={LH} alt="testing" class='logo'/>
+        <div className='container'>
+            <div className='row'>
+                <div className='col'></div>
+                <a href='/' className='col'>
+                    <img src={LH} alt="testing" className='logo'/>
                 </a>
-                <div class='col'></div>
+                <div className='col'></div>
             </div>
         </div>
     )

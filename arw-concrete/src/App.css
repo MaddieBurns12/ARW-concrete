@@ -7,6 +7,10 @@
 .page-select {
   text-decoration: none;
   text-align: center;
+  color: #FACF21;
+}
+.page-select:hover {
+  color: #D72348;
 }
 
 .select-container {

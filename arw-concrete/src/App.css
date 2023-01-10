@@ -16,3 +16,14 @@
 .select-container {
   text-align: center;
 }
+
+#home-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  max-height: 70vh;
+  background-size: cover;
+}

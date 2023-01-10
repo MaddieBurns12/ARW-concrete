@@ -1,11 +1,13 @@
 import React from 'react';
-import LH from '../images/LH.jpg';
+import TEST from '../images/TEST.mp4';
 
 
 const Home = () => {
     return(
-        <div className='home'>
-            <img src={LH} alt="test" id='home-image'/>
+        <div className='container home'>
+            <video autoPlay="autoplay" loop="loop" muted id='home-image'>
+                <source src={TEST} type="video/mp4"/>
+            </video>
         </div>
     )
 }

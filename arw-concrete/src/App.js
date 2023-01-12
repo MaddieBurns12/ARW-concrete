@@ -27,7 +27,7 @@ function App() {
     case '/services':
       component = <Services />
       break
-  
+   // no default
   }
   return (
     <div>
